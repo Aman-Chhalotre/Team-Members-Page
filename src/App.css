@@ -1,0 +1,58 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#company_name{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #136EAF;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 1px 1px 10px 1px rgb(49, 49, 49);
+}
+#company_name div h1{
+    font-weight: 400;
+}
+#desc{
+    width: 70%;
+    padding-bottom: 20px;
+    text-align: center;    
+}
+#desc h5{
+    font-weight: 500;
+    color: rgb(209, 209, 209);
+}
+#mot{
+    width: 40%;
+    background-color: #1e7fc4;
+    border-radius: 10px;
+    text-align: center;
+}
+#mot h2{
+    color: rgb(29, 29, 29);
+    font-weight: 700;
+}
+
+
+/* Media query */
+
+@media screen and (max-width: 425px) {
+    #company_name div h1{
+        font-size:x-large;
+        font-weight: 500;
+    }
+    #desc{
+        width: 100%;
+    }
+    #mot{
+        width: 100%;
+    }
+    #mot h2{
+        font-size: large;
+    }
+}
