@@ -13,6 +13,7 @@ function Development() {
         <div id='development-members'>
 
           <div id='development-box1'>
+
             <div className='development-member'>
               <img src={image} alt="image" />
               <div>
@@ -29,23 +30,11 @@ function Development() {
               </div>
             </div>
 
-            <div className='development-member'>
-              <img src={image} alt="image" />
-              <div>
-                <h3>Developer name</h3>
-                <h5>Software Engineer</h5>
-              </div>
-            </div>
+            
+
           </div>
 
           <div id='development-box2'>
-            <div className='development-member'>
-              <img src={image} alt="image" />
-              <div>
-                <h3>Developer name</h3>
-                <h5>Software Engineer</h5>
-              </div>
-            </div>
 
             <div className='development-member'>
               <img src={image} alt="image" />
@@ -55,6 +44,8 @@ function Development() {
               </div>
             </div>
 
+            
+
             <div className='development-member'>
               <img src={image} alt="image" />
               <div>
@@ -62,6 +53,7 @@ function Development() {
                 <h5>Software Engineer</h5>
               </div>
             </div>
+            
           </div>
 
         </div>

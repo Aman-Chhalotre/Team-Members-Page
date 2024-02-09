@@ -1,5 +1,5 @@
 #management-main{
-    width: 70%;
+    /* width: 70%; */
     margin: 20px 0;
     padding: 10px;
     text-align: center;
@@ -12,8 +12,7 @@
     padding: 5px;
     color: white;
     font-weight: 500;
-    text-align: start;
-    /* background-color: #FDDD39; */
+    text-align: center;
     background-color: #222D3E;
     border-radius: 10px;
 }
@@ -26,23 +25,25 @@
     gap: 50px;
 }
 #management-box1{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px;
 }
 #management-box2{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px;
 }
 .management-member{
+    margin: 2px;
     border-radius: 10px;
     width: 150px;
+    background-color: #fddc3956;
 }
 .management-member img{
-    height: 130px;
+    height: 110px;
     filter:drop-shadow(1px 5px 8px rgb(39, 39, 39)) ;
 }
 .management-member img:hover{

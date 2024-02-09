@@ -1,5 +1,5 @@
 #sales-main{
-    width: 70%;
+    /* width: 70%; */
     margin: 20px 0;
     padding: 10px;
     text-align: center;
@@ -12,7 +12,7 @@
     padding: 5px;
     color: white;
     font-weight: 500;
-    text-align: end;
+    text-align: center;
     background-color: #222D3E;
     border-radius: 10px;
 }
@@ -27,13 +27,13 @@
     gap: 50px;
 }
 #sales-box1{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px;
 }
 #sales-box2{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -41,9 +41,10 @@
 .sales-member{
     border-radius: 10px;
     width: 150px;
+    background-color: #fddc3956;
 }
 .sales-member img{
-    height: 100px;
+    height: 90px;
     filter:drop-shadow(1px 5px 8px rgb(39, 39, 39)) ;
 }
 .sales-member img:hover{

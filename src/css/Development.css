@@ -1,5 +1,5 @@
 #development-main{
-    width: 70%;
+    /* width: 70%; */
     margin: 20px 0;
     padding: 10px;
     text-align: center;
@@ -27,13 +27,13 @@
     gap: 50px;
 }
 #development-box1{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px;
 }
 #development-box2{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -41,9 +41,10 @@
 .development-member{
     border-radius: 10px;
     width: 150px;
+    background-color: #fddc3956;
 }
 .development-member img{
-    height: 100px;
+    height: 90px;
     filter:drop-shadow(1px 5px 8px rgb(39, 39, 39)) ;
 }
 .development-member img:hover{
